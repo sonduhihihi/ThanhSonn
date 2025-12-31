@@ -2,115 +2,52 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bảng Tỉ Số Trận Bóng Đá</title>
+    <title>Chúc Mừng Năm Mới</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f4f4f4;
             margin: 0;
-            padding: 0;
-            
-            background-image: url('https://www.galeriemichael.com/wp-content/uploads/2025/07/bo-suu-tap-meme-ronaldo.jpg');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed; /* làm ảnh đứng yên khi cuộn */
+            height: 100vh;
+            background: linear-gradient(120deg, #ff0000, #ffcc00);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Arial', sans-serif;
+            color: white;
+            text-align: center;
         }
 
-        .container {
-            width: 80%;
-            margin: 250px auto;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        .box {
+            background: rgba(0,0,0,0.3);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(255,255,255,0.5);
         }
 
         h1 {
-            color: #333;
+            font-size: 3em;
+            animation: glow 1.5s infinite alternate;
         }
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
+        p {
+            font-size: 1.3em;
         }
 
-        table, th, td {
-            border: 1px solid #ddd;
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px #fff, 0 0 20px #ff0;
+            }
+            to {
+                text-shadow: 0 0 20px #fff, 0 0 40px #ff0;
+            }
         }
-
-        th, td {
-            padding: 12px;
-            text-align: center;
-        }
-
-        th {
-            background-color: #4CAF50;
-            color: white;
-        }
-
-        .score {
-            font-size: 2em;
-            font-weight: bold;
-        }
-
-        .team-name {
-            font-size: 1.2em;
-            color: #333;
-        }
-
-        .team-logo {
-            width: 50px; /* Điều chỉnh kích thước logo */
-            height: 50px;
-            margin-right: 10px;
-            vertical-align: middle;
-        }
-        
-    table {
-        width: 100%;
-        border-collapse: collapse;
-        background-color: transparent; /* làm bảng trong suốt */
-    }
-
-    th, td {
-        border: 1px solid #fff;
-        padding: 12px;
-        text-align: center;
-        background-color: transparent; /* ô trong suốt */
-        color: #000;
-    }
-
-
     </style>
 </head>
 <body>
-
-    <div class="container">
-        <h1>Trận Bóng Đá Giữa Hai Đội</h1>
-        
-        <table>
-            <tr>
-                <th>Đội</th>
-                <th>Tỉ Số</th>
-            </tr>
-            <tr>
-                <td class="team-name">
-                    <img src="https://upload.wikimedia.org/wikipedia/vi/thumb/0/0c/Liverpool_FC.svg/250px-Liverpool_FC.svg.png" alt="Đội 1 Logo" class="team-logo">
-                    lan vo di
-                </td>
-                <td class="score">7</td>
-            </tr>
-            <tr>
-                <td class="team-name">
-                    <img src="https://upload.wikimedia.org/wikipedia/vi/thumb/a/a1/Man_Utd_FC_.svg/1184px-Man_Utd_FC_.svg.png" alt="Đội 2 Logo" class="team-logo">
-                    man dan
-                </td>
-                <td class="score">0</td>
-            </tr>
-        </table>
+    <div class="box">
+        <h1>🎉 Chúc Mừng Năm Mới 2026 🎉</h1>
+        <p>Chúc bạn một năm mới</p>
+        <p>✨ Sức khỏe – May mắn – Thành công ✨</p>
+        <p>💖 Vạn sự như ý 💖</p>
     </div>
-
 </body>
 </html>
